@@ -1,0 +1,13 @@
+.makeRow {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 40px;
+}
+
+.toTheRight {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}

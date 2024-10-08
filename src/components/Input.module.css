@@ -1,0 +1,16 @@
+.inputComp {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 1.2em;
+}
+
+.inputComp input {
+  width: 300px;
+  height: 38px;
+  border-radius: 5px;
+}

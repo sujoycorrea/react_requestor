@@ -1,0 +1,35 @@
+.listBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  border: 5px solid whitesmoke;
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 500px;
+}
+
+.listBox:hover {
+  cursor: pointer;
+  border-color: gray;
+}
+
+.boxTitle {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.boxDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  column-gap: 12px;
+}
+
+.label {
+  font-size: 1.1em;
+}
